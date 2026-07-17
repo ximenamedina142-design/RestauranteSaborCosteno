@@ -1,84 +1,138 @@
-```jsp
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
 <!DOCTYPE html>
 <html lang="es">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Restaurante Sabor Costeño</title>
 
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
 
-    <header>
-        <h1>🍽 Restaurante Sabor Costeño</h1>
+<header>
 
-        <nav>
-            <a href="index.jsp">Inicio</a>
-            |
-            <a href="menu.jsp">Menú</a>
-            |
-            <a href="nosotros.jsp">Nosotros</a>
-            |
-            <a href="contacto.jsp">Contacto</a>
-            |
-            <a href="registro.jsp">Registro</a>
-        </nav>
+    <div class="logo">
+        🍽 Restaurante Sabor Costeño
+    </div>
 
-    </header>
+    <nav>
 
-    <hr>
+        <a href="index.jsp">Inicio</a>
 
-    <main>
+        <a href="menu.jsp">Menú</a>
 
-        <section>
+        <a href="nosotros.jsp">Nosotros</a>
 
-            <h2>Bienvenidos</h2>
+        <a href="contacto.jsp">Contacto</a>
 
-            <p>
-                Disfruta de los mejores platos típicos ecuatorianos
-                preparados con ingredientes frescos y el auténtico sabor
-                de la costa.
-            </p>
+        <a href="registro.jsp">Registro</a>
 
-            <a href="menu.jsp">
-                <button>Ver Menú</button>
-            </a>
+    </nav>
 
-        </section>
+</header>
 
+<section class="hero">
 
-        <section>
+    <div class="hero-text">
 
-            <h2>Restaurante Sabor Costeño</h2>
-
-            <p>
-                Somos un restaurante dedicado a rescatar los sabores
-                tradicionales de la costa ecuatoriana, ofreciendo platos
-                preparados con calidad y tradición.
-            </p>
-
-        </section>
-
-
-    </main>
-
-    <hr>
-
-    <footer>
+        <h1>Sabores auténticos de la Costa Ecuatoriana</h1>
 
         <p>
-            © 2026 Restaurante Sabor Costeño
+            Descubre los mejores platos tradicionales preparados con ingredientes
+            frescos, mariscos de calidad y recetas que conservan el auténtico
+            sabor de nuestra gastronomía.
         </p>
 
-    </footer>
+        <a href="menu.jsp">
+            <button type="button">
+                🍽 Ver Menú
+            </button>
+        </a>
 
+    </div>
+
+</section>
+
+<section class="cards">
+
+    <div class="card">
+
+        <img src="img/ceviche.jpg" alt="Ceviche Mixto">
+
+        <h2>Ceviche Mixto</h2>
+
+        <p>
+            Delicioso ceviche preparado con camarón, pescado fresco,
+            limón y nuestro toque especial.
+        </p>
+
+    </div>
+
+    <div class="card">
+
+        <img src="img/encebollado.jpg" alt="Encebollado">
+
+        <h2>Encebollado</h2>
+
+        <p>
+            El plato tradicional ecuatoriano elaborado con albacora,
+            yuca y cebolla curtida.
+        </p>
+
+    </div>
+
+    <div class="card">
+
+        <img src="img/arroz.jpg" alt="Arroz Marinero">
+
+        <h2>Arroz Marinero</h2>
+
+        <p>
+            Arroz acompañado de camarones, calamares, mejillones y
+            otros mariscos frescos.
+        </p>
+
+    </div>
+
+</section>
+
+<section class="about">
+
+    <h1>¿Por qué elegirnos?</h1>
+
+    <p>
+
+        En Restaurante Sabor Costeño trabajamos con ingredientes frescos,
+        recetas tradicionales y un excelente servicio para que disfrutes
+        una experiencia gastronómica inolvidable.
+
+    </p>
+
+</section>
+
+<footer>
+
+    <p>
+
+        © 2026 Restaurante Sabor Costeño
+
+    </p>
+
+    <p>
+
+        Guayaquil - Ecuador
+
+    </p>
+
+</footer>
 
 </body>
 
 </html>
-```

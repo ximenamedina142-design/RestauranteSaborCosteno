@@ -2,28 +2,79 @@
 
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
+
     <meta charset="UTF-8">
-    <title>Registro de Usuarios</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Registro - Restaurante Sabor Costeño</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
+
 <body>
+
+<header>
+
+    <div class="logo">
+        🍽 Restaurante Sabor Costeño
+    </div>
+
+    <nav>
+        <a href="index.jsp">Inicio</a>
+        <a href="menu.jsp">Menú</a>
+        <a href="nosotros.jsp">Nosotros</a>
+        <a href="contacto.jsp">Contacto</a>
+        <a href="registro.jsp">Registro</a>
+    </nav>
+
+</header>
+
+<div class="formulario">
 
     <h1>Registro de Usuarios</h1>
 
+    <p style="text-align:center; margin-bottom:25px; color:#555;">
+        Completa tus datos para registrarte y conocer nuestras promociones.
+    </p>
+
     <form action="RegistroServlet" method="post">
 
-        <label>Nombre:</label><br>
-        <input type="text" name="nombre" required><br><br>
+        <input
+            type="text"
+            name="nombre"
+            placeholder="Nombre completo"
+            required>
 
-        <label>Correo:</label><br>
-        <input type="email" name="correo" required><br><br>
+        <input
+            type="email"
+            name="correo"
+            placeholder="Correo electrónico"
+            required>
 
-        <label>Contraseña:</label><br>
-        <input type="password" name="password" required><br><br>
+        <input
+            type="password"
+            name="password"
+            placeholder="Contraseña"
+            required>
 
-        <input type="submit" value="Registrarse">
+        <button type="submit">
+            Registrarse
+        </button>
 
     </form>
 
+</div>
+
+<footer>
+
+    <p>© 2026 Restaurante Sabor Costeño</p>
+    <p>Guayaquil - Ecuador</p>
+
+</footer>
+
 </body>
+
 </html>

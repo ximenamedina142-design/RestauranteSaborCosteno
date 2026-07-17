@@ -1,0 +1,74 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Nosotros</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+
+🍽 Restaurante Sabor Costeño
+
+</div>
+
+<nav>
+
+<a href="index.jsp">Inicio</a>
+
+<a href="menu.jsp">Menú</a>
+
+<a href="nosotros.jsp">Nosotros</a>
+
+<a href="contacto.jsp">Contacto</a>
+
+<a href="registro.jsp">Registro</a>
+
+</nav>
+
+</header>
+
+<section class="about">
+
+<h1>Sobre Nosotros</h1>
+
+<img src="img/restaurante.jpg" class="about-img" alt="Nuestro Restaurante">
+
+<p>
+
+En Restaurante Sabor Costeño nos dedicamos a preparar los mejores platos tradicionales de la costa ecuatoriana utilizando ingredientes frescos y recetas que conservan el auténtico sabor de nuestra gastronomía.
+
+</p>
+
+<p>
+
+Nuestro objetivo es brindar una experiencia culinaria inolvidable, donde cada cliente disfrute de un ambiente acogedor y un excelente servicio.
+
+</p>
+
+</section>
+
+<footer>
+
+<p>© 2026 Restaurante Sabor Costeño</p>
+
+<p>Guayaquil - Ecuador</p>
+
+</footer>
+
+</body>
+
+</html>
